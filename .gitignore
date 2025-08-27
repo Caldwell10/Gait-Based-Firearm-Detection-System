@@ -35,9 +35,8 @@ share/python-wheels/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Data and model files  
-pose_cache/*.caffemodel
-!pose_cache/*.prototxt
+# Data and model files
+pose_cache/
 exploration_outputs/
 *.pkl
 *.h5
